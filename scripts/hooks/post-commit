@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+
+echo "Running post-commit hook..."
+
+
+
+# Reapply translations for local use
+
+python3 .git/hooks/revert_translations.py
